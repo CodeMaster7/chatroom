@@ -11,6 +11,10 @@ app.controller('mainCtrl', function($scope, parseService){
   }
   $scope.getParseData();
     
+    setInterval(function(){
+    $scope.getParseData();
+  }, 1000)
+    
 //The getParseData function will call the getData method on the parseService object. You'll then save the result of that request to 
   //your controllers $scope as messages ($scope.messages)
 
