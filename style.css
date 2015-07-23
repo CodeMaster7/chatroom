@@ -19,7 +19,8 @@ body {
 }
 
 .main-container h1 {
-  text-align: center;
+  text-align: center;   
+  color: blue;
 }
 
 .text-box {
@@ -31,4 +32,5 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+  color: red;
 }
